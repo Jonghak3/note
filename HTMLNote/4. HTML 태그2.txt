@@ -1,0 +1,38 @@
+1. 하이퍼링크 삽입하기
+    1) 링크를 삽입하는 <a>태그와 href 속성 
+        - 텍스트 링크
+        - 이미지 링크 
+    2) 링크를 새 탭에서 열어 주는 target 속성 
+        - target 속성에 _blank를 지정함 
+
+2. 입력 양식 작성
+    1) 폼을 만드는 <form> 태그
+        - <form [속성="속성값"]>여러 폼 요소</form>
+        - <form> 태그의 속성
+            - method : get, post 
+            - name
+            - action : <form> 태그 안의 내용을 처리해줄 
+                       서버 프로그램을 지정함 
+    2) 폼 요소를 그룹으로 묶는 <fieldset>, <legend> 태그 
+        - 하나의 폼 안에서 여러 구역을 나누어 표시할 때 
+          <fieldset> 태그 사용함.
+        - <legend> 태그는 <fieldset> 태그로 묶은 그룹에 제목을 붙일 수 있음
+    3) 폼 요소에 레이블을 붙이는 <label> 태그 
+        - 입력란 가까이에 표시하는 텍스트임 
+        - <label for="id명">레이블명</label>
+          <input id="id명">
+          - <label> 태그의 for속성과 폼 요소의 id속성을 이용해서 서로 연결함
+    4) 다양한 곳에서 사용하는 웹 폼의 <input> 태그 
+        - <input> 태그의 type속성 살피기
+            - text : 기본값
+              password, search, url, email, tel, checkbox, radio
+    5) 체크 박스와 라디오 버튼을 나타내는
+       type="checkbox", type="radio"
+    6) 숫자 입력 필드를 나타내는 
+       type="number", type="range"
+    7) 날짜 입력을 나타내는 type="date",
+       type="month", type="week"
+        - 웹 문서나 앱에 달력을 넣을 때 이용함
+    8) 시간 입력을 나타내는 type="time", type="datetime-local"
+    9) 전송, 리셋 버튼을 나타내는
+       type="submit", type="reset"
