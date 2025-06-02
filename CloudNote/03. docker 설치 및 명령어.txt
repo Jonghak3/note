@@ -10,3 +10,13 @@
 3. 버전 확인
     1) wsl --version
     2) docker --version 
+
+4. 도커 이미지 관련 명령어
+    1) docker Image pull <이미지명>
+        - 이미지를 Docker Hub 사이트에서 다운로드 함
+    2) docker Image ls
+        - 로컬 이미지 목록 확인
+    3) docker Image rmi <이미지명>
+        - 이미지 삭제 명령어
+       docker rmi -f <이미지ID>
+        - 특정 이미지 강제 삭제
