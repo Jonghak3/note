@@ -15,7 +15,7 @@
         - (조건) ? true일 때 실행할 명령 : false일 때 실행할 명령
 
 3. 논리 연산자로 조건 체크하기 
-    1) OR 연산자
+    1) OR 연산자 (||)
         op1         op1         op1  || op2
       ---------------------------------------
        false      false             false
@@ -23,7 +23,7 @@
        true       false             true
        true       true              true
     
-    2) AND 연산자
+    2) AND 연산자 (&&)
         op1         op1         op1  || op2
       ---------------------------------------
        false      false             false
