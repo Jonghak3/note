@@ -106,4 +106,4 @@
        ::after
         - 내용 뒤에 컨텐츠를 추가하는 요소
 
-        - content       ----------- h1::before {content: ;} 
+        - content       ----------- h1::before {content:넣고싶은콘텐츠 ;} 
