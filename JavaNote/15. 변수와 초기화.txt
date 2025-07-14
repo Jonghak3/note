@@ -22,3 +22,5 @@
 
 4. NullPointerException
     1) 주소가 없는 곳을 찾아갈 때 발생하는 예외임.
+
+    2) 멤버 변수와 null
