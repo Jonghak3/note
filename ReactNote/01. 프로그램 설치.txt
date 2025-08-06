@@ -23,6 +23,7 @@
     3) App.js 
         - 모든 컴포넌트의 중심 
         - 조건에 따라 화면을 바꿔가며 보여주는 SPA 구조
+        - 전역 범위(global)
 
 5. SPA
     1) Single Page Application
@@ -44,4 +45,4 @@
     - JavaScript 객체를 표현하는 JSF 문법
         - 바깥 {...}
         - 안쪽 {...}
-    -JSX안에 객체를 넣음 
+    - JSX안에 객체를 넣음 

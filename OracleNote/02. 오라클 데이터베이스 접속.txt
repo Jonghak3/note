@@ -1,0 +1,7 @@
+1. 접속 관련 참고 체크 파일
+    1) 위치
+        - D:\app\admin\product\21c\homes\OraDB21Home1\network\
+            - listener.ora 
+            - tnsnames.ora 
+
+            - 혹시 문제가 있다면 host 
